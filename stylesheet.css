@@ -1,14 +1,39 @@
-h1{
-  color: #ff0000;
-  font-size: 30px;
-  background-color: #f3f372;
+h1 {
+  color: #e6855e;
+  font-size:30px;
+  background-color:#f3f372;
   height:80px;
-  widht:20px;
-}
-a{
-    color: #ff0000;
+  width:200px;
 }
 img {
-  height: 50px;
-  widht: 70px;
+  height:1080px;
+}
+p {
+  color: #ff0000;
+  font-size:20px;
+  font-family:"lucida grande"
+}
+
+li {
+  color: #444;
+}
+
+.selected{
+  color:#ff0000;
+}
+
+.header {
+    background-color: #26d0c9;
+    color: #fff; 
+    height: 90px; 
+  }
+  li {
+     list-style: none; 
+     float: left; 
+     padding:20px 40px;
+}
+.header-logo { 
+  float: left; 
+  font-size: 36px; 
+  padding:20px 40px;
 }
