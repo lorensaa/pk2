@@ -1,39 +1,174 @@
-h1 {
-  color: #e6855e;
-  font-size:30px;
-  background-color:#f3f372;
-  height:80px;
-  width:200px;
-}
-img {
-  height:500px;
-}
-p {
-  color: #ff0000;
-  font-size:20px;
-  font-family:"lucida grande"
-}
-
-li {
-  color: #444;
-}
-
-.selected{
-  color:#ff0000;
-}
-
-.header {
-    background-color: #26d0c9;
-    color: #fff; 
-    height: 90px; 
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
   }
-  li {
-     list-style: none; 
-     float: left; 
-     padding:20px 40px;
-}
-.header-logo { 
-  float: left; 
-  font-size: 36px; 
-  padding:20px 40px;
-}
+  
+  body {
+    background-color: #efefef;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #96b6c5;
+    padding: 20px 70px;
+  }
+  
+  .header-logo h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #fff;
+  }
+  
+  .header-list ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .header-list ul li {
+    padding: 10px 16px;
+  }
+  
+  .header-list ul li a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .header-list ul li a:hover {
+    color: #1d1d1d;
+  }
+  
+  .content {
+    padding: 40px 70px;
+    text-align: center;
+    color: #1d1d1d;
+  }
+  
+  .content h1 {
+    font-size: 40px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+  }
+  
+  .content h2 {
+    margin-top: 20px;
+  }
+  
+  .content p {
+    font-size: 18px;
+  }
+  
+  .images-cat {
+    width: 50%;
+    height: 50%;
+    margin: 20px auto;
+    box-shadow: 0 0 10px #1d1d1d;
+  }
+  
+  .images-cat img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .content .link-cat {
+    margin-top: 50px;
+  }
+  
+  .content .link-cat a {
+    padding: 12px 20px;
+    background-color: #96b6c5;
+    color: #fff;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    text-transform: capitalize;
+    transition: .5s ease;
+  }
+  
+  .content .link-cat a:hover {
+      background-color: #1d1d1d;
+  }
+  
+  marquee {
+      background-color: #96b6c5;
+      padding: 10px 0;
+      margin-top: 100px;
+      font-weight: 800;
+      color: #fff;
+      letter-spacing: 4px;text-transform: uppercase;
+  }
+  
+  /* Praktikum */
+  .pkl {
+      width: 100%;
+      height: 100vh;
+      text-transform: capitalize;
+  }
+  
+  .pkl h1 {
+      font-size: 40px;
+      text-align: center;
+  }
+  
+  .pkl .form-pkl {
+      padding: 40px 70px;
+  }
+  
+  .form-pkl table tr td {
+      font-size: 18px;
+      font-weight: 600;
+  }
+  
+  .form-pkl form {
+      margin-top: 30px;
+  }
+  
+  form h2 {
+      padding: 10px 0;
+  }
+  
+  form label {
+      display: flex;
+      align-items: center;
+  }
+  
+  select option {
+      text-transform: capitalize;
+  }
+  
+  textarea {
+      width: 300px;
+      height: 200px;
+      margin-top: 20px;
+      padding: 30px;
+      text-align: center;
+      text-transform: capitalize;
+  }
+  
+  button {
+      padding: 12px 20px;
+      margin-top: 20px;
+      background-color: #96b6c5;
+      border: none;
+      text-transform: capitalize;
+      color: #fff;
+      border-radius: 6px;
+      letter-spacing: 1px;
+      transition: .3s ease;
+  }
+  
+  button:hover {
+      background-color: #1d1d1d;
+  }
