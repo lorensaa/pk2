@@ -116,3 +116,123 @@
      </div>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klinik Kucing</title>
+    <link rel="stylesheet" href="pert2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,800;1,600&display=swap" rel="stylesheet">
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins";
+  text-decoration: none;
+  color: black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 10rem auto;
+  width: 40%;
+  background-color: rgb(180, 241, 168);
+  padding: 2rem;
+  border-radius: .5rem;
+  box-shadow: 5px 9px 17px 4px rgba(0,0,0,0.10);
+  -webkit-box-shadow: 5px 9px 17px 4px rgba(0,0,0,0.10);
+  -moz-box-shadow: 5px 9px 17px 4px rgba(0,0,0,0.10);
+}
+
+form h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+form div label {
+  font-size: .8rem;
+}
+
+form div input {
+  border: none;
+  padding: .2rem;
+}
+
+
+form div textarea {
+  border: none;
+  padding: .2rem;
+}
+
+form div select {
+  border: none;
+  padding: .2rem;
+}
+
+form button {
+  width: 40%;
+  margin: 0 auto;
+  border: none;
+  border-radius: .2rem;
+  height: 2rem;
+  background-color: rgb(215, 35, 35);
+  cursor: pointer;
+}
+form button:hover {
+  background-color: rgb(229, 211, 211);
+}
+    </style>
+
+</head>
+<body>
+    <form method="POST">
+       
+        <h1>Klinik Kucing</h1>
+
+        <div>
+            <label for="Nama Kucing" >Nama Kucing</label>
+            <input placeholder="Nama Kucing" type="text" name="Nama Kucing" />
+        </div>
+       
+        <div>
+            <label for="harga" >Harga</label>
+            <input placeholder="masukkan harga" type="number" name="harga" />
+        </div>
+       
+        <div>
+            <label for="deskripsi" >Deskripsi</label>
+            <textarea name="deskripsi" placeholder="masukkan deskripsi" ></textarea>
+        </div>
+       
+        <div>
+            <label for="gambar" >Gambar</label>
+            <input placeholder="masukkan gambar" type="file" name="gambar" />
+        </div>
+
+        <div>
+            <label for="gambar2" >Link Gambar</label>
+            <input placeholder="masukkan gambar link" type="text" name="gambar2" />
+        </div>
+       
+        <div>
+            <select name="kategori">
+                <option value="1">Makanan</option>
+                <option value="2">Royal Canin</option>
+                <option value="3">Cat Choize</option>
+                <option value="4">Life Cat</option>
+            </select>
+        </div>
+
+        <button><a href="pert1.html">Done</a></button>
+       
+    </form>
+</body>
+</html>
