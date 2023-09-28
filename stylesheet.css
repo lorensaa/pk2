@@ -1,174 +1,232 @@
 * {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-color: #efefef;
-  }
-  
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 60px;
-    background-color: #96b6c5;
-    padding: 20px 70px;
-  }
-  
-  .header-logo h1 {
-    font-size: 36px;
-    font-weight: bold;
-    text-transform: capitalize;
-    color: #fff;
-  }
-  
-  .header-list ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-  }
-  
-  .header-list ul li {
-    padding: 10px 16px;
-  }
-  
-  .header-list ul li a {
-    font-size: 18px;
-    font-weight: 600;
-    color: #fff;
-    letter-spacing: 1px;
-    transition: 0.2s ease-in-out;
-  }
-  
-  .header-list ul li a:hover {
-    color: #1d1d1d;
-  }
-  
-  .content {
-    padding: 40px 70px;
-    text-align: center;
-    color: #1d1d1d;
-  }
-  
-  .content h1 {
-    font-size: 40px;
-    text-transform: capitalize;
-    letter-spacing: 1px;
-  }
-  
-  .content h2 {
-    margin-top: 20px;
-  }
-  
-  .content p {
-    font-size: 18px;
-  }
-  
-  .images-cat {
-    width: 50%;
-    height: 50%;
-    margin: 20px auto;
-    box-shadow: 0 0 10px #1d1d1d;
-  }
-  
-  .images-cat img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .content .link-cat {
-    margin-top: 50px;
-  }
-  
-  .content .link-cat a {
-    padding: 12px 20px;
-    background-color: #96b6c5;
-    color: #fff;
-    letter-spacing: 1px;
-    border-radius: 6px;
-    text-transform: capitalize;
-    transition: .5s ease;
-  }
-  
-  .content .link-cat a:hover {
-      background-color: #1d1d1d;
-  }
-  
-  marquee {
-      background-color: #96b6c5;
-      padding: 10px 0;
-      margin-top: 100px;
-      font-weight: 800;
-      color: #fff;
-      letter-spacing: 4px;text-transform: uppercase;
-  }
-  
-  /* Praktikum */
-  .pkl {
-      width: 100%;
-      height: 100vh;
-      text-transform: capitalize;
-  }
-  
-  .pkl h1 {
-      font-size: 40px;
-      text-align: center;
-  }
-  
-  .pkl .form-pkl {
-      padding: 40px 70px;
-  }
-  
-  .form-pkl table tr td {
-      font-size: 18px;
-      font-weight: 600;
-  }
-  
-  .form-pkl form {
-      margin-top: 30px;
-  }
-  
-  form h2 {
-      padding: 10px 0;
-  }
-  
-  form label {
-      display: flex;
-      align-items: center;
-  }
-  
-  select option {
-      text-transform: capitalize;
-  }
-  
-  textarea {
-      width: 300px;
-      height: 200px;
-      margin-top: 20px;
-      padding: 30px;
-      text-align: center;
-      text-transform: capitalize;
-  }
-  
-  button {
-      padding: 12px 20px;
-      margin-top: 20px;
-      background-color: #96b6c5;
-      border: none;
-      text-transform: capitalize;
-      color: #fff;
-      border-radius: 6px;
-      letter-spacing: 1px;
-      transition: .3s ease;
-  }
-  
-  button:hover {
-      background-color: #1d1d1d;
-  }
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #efefef;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: #96b6c5;
+  padding: 20px 70px;
+}
+
+.header-logo h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.header-list ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.header-list ul li {
+  padding: 10px 16px;
+}
+
+.header-list ul li a {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+  transition: 0.3s ease-in-out;
+}
+
+.header-list ul li a i {
+  font-size: 24px;
+}
+
+.header-list ul li a:hover {
+  color: #1d1d1d;
+}
+
+.content {
+  padding: 40px 70px;
+  text-align: center;
+  color: #1d1d1d;
+}
+
+.content h1 {
+  font-size: 40px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.content h2 {
+  margin-top: 20px;
+}
+
+.content p {
+  font-size: 18px;
+}
+
+.images-cat {
+  width: 50%;
+  height: 400px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px #1d1d1d;
+}
+
+.images-cat img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content .link-cat {
+  margin-top: 50px;
+}
+
+.content .link-cat a {
+  padding: 12px 20px;
+  background-color: #96b6c5;
+  color: #fff;
+  letter-spacing: 1px;
+  border-radius: 6px;
+  text-transform: capitalize;
+  transition: 0.5s ease;
+}
+
+.content .link-cat a:hover {
+  background-color: #1d1d1d;
+}
+
+marquee {
+  background-color: #96b6c5;
+  padding: 10px 0;
+  margin-top: 100px;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.card-content {
+  margin-top: 70px;
+}
+
+.card-content .card-title {
+  font-size: 32px;
+  color: #1d1d1d;
+}
+
+.card-content .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card-content .card .card-body {
+  width: 300px;
+  height: 440px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0px 8px #1d1d1d;
+}
+
+.card-content .card .card-images img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 6px 6px 0 0;
+}
+
+.card-content .card .card-description {
+  padding: 10px;
+}
+
+.card-content .card .card-description h3 {
+  font-size: 20px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.card-content .card .card-description p {
+  font-size: 14px;
+  color: #7a7a7a;
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto;
+  width: 35%;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 6px;
+  box-shadow: 0 0px 8px #1d1d1d;
+}
+
+form h1 {
+  text-align: center;
+  color: #6499e9;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+form div label {
+  padding: 2px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #1d1d1d;
+  text-transform: capitalize;
+}
+
+form div input,
+form div select,
+form div textarea {
+  border: 0.5px solid #7a7a7a;
+  padding: 0.4rem;
+  border-radius: 4px;
+  outline-color: #6499e9;
+}
+
+form div select {
+  text-transform: capitalize;
+}
+
+form button {
+  width: 50%;
+  margin: 0 auto;
+  border: none;
+  border-radius: 2rem;
+  height: 2rem;
+  background-color: #086bff;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+button a {
+  color: #fff;
+}
+
+form button:hover {
+  background-color: #3a89ff;
+}
