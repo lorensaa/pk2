@@ -6,26 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lorensa</title>
 
+    <!-- Font Google Poppins -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,800;1,600&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="stylesheet.css" />
 </head>
 
 <body>
     <div class="header">
         <div class="header-logo">
-            <h1>jeniskucing</h1>
+            <h1>Klinik Lorensa.</h1>
         </div>
 
         <div class="header-list">
             <ul>
-                <li><a href="#">Persia</a></li>
-                <li><a href="#">Domestic</a></li>
-                <li><a href="#">Mixdom</a></li>
+                <li>
+                    <a href="#"><i class='bx bx-envelope'></i>lorensanabila03@gmail.com</a>
+                </li>
+                <!-- <li><a href="#">Domestic</a></li>
+                <li><a href="#">Mixdom</a></li> -->
             </ul>
         </div>
     </div>
 
     <div class="content">
-        <h1>Hai Ini Website lorensa</h1>
+        <h1>Hai Ini Website Klinik Lorensa</h1>
         <h2>Tentang Kucing</h2>
         <p>Kucing adalah hewan yang sangat menggemaskan</p>
 
@@ -38,68 +49,94 @@
             <a href="https://id.wikipedia.org/wiki/Kucing">
                 ini adalah link tentang kucing</a>
         </div>
-        <marquee>ayok dikepoin kak</marquee>
-    </div>
-</body>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 
-</head>
-<body>
-    <div>
-        <nav>
-            <form>
-            Nama    : Lorensa
-            </form>
-        <textarea>
-           isi ulasan anda
-        </textarea>
-    </nav>
-     </div>
-    <nav>
-        GENDER
-    </nav>
-     <input type="radio" name="sex" 
-     value="pria">Pria<br><input type="radio" name="sex" 
-     value="wanita">Wanita
-     <div>
-        <nav>
-            JADWAL KULIAH
-        </nav>
-     <input type="checkbox" name="day" 
-    value="senin">Senin<br><input type="checkbox" name="day" 
-    value="selasa">Selasa<br><input type="checkbox" name="day" 
-    value="rabu">Rabu
-     </div>
-     <div>
-        <nav>
-            ASAL NEGARA
-        </nav>
-        <select name="country">
-            <option value="indonesia">Indonesia</option>
-            <option value="malaysia">Malaysia</option>
-            <option value="filipina">Filipina</option>
-            <option value="vietnam">Vietnam</option>
-            </select>      
-     </div>
-     <div>
-        <nav>
-            ASAL KOTA
-        </nav>
-        <select name="country" multiple>
-            <option value="jakarta">jakarta</option>
-            <option value="surabaya">surabaya</option>
-            <option value="bandung">bandung</option>
-            <option value="jogja">jogja</option>
+        <div class="card-content">
+            <div class="card-title">
+                <h1>jenis kucing</h1>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-images">
+                        <img src="https://tse1.mm.bing.net/th?id=OIP.kbt83-ihpARmJcLjL59isAHaEd&pid=Api&P=0&h=220"
+                            alt="">
+                    </div>
+
+                    <div class="card-description">
+                        <h3>domestik</h3>
+                        <p>Kucing domestik, yang juga dikenal sebagai Felis catus atau Felis silvestris catus, adalah
+                            subspesies dari kucing liar
+                            yang telah dijinakkan dan dijadikan hewan peliharaan oleh manusia.</p>
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <div class="card-images">
+                        <img src="https://hewanesia.com/wp-content/uploads/2020/03/kucing-persia-medium.jpeg" alt="">
+                    </div>
+
+                    <div class="card-description">
+                        <h3>persia</h3>
+                        <p>Kucing Persia, juga dikenal sebagai kucing Iran, adalah salah satu ras kucing domestik yang
+                            paling terkenal dan populer
+                            di seluruh dunia.</p>
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <div class="card-images">
+                        <img src="https://tse2.mm.bing.net/th?id=OIP.GdiFNyeyWcV-rJkTL27YsQHaEh&pid=Api&P=0&h=220"
+                            alt="">
+                    </div>
+
+                    <div class="card-description">
+                        <h3>mixdom</h3>
+                        <p>Kucing mixdom adalah jenis kucing hasil campuran antara kucing domestik dan kucing ras dengan
+                            jenis apa pun. Istilah
+                            'mixdom' sendiri adalah singkatan dari mix domestik.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <marquee>kucing anda sakit ? jangan ragu datang ke klinik lorensa</marquee>
+    </div>
+
+    <form method="POST">
+
+        <h1>klinik lorensa</h1>
+
+        <div>
+            <label for="nama-kucing">nama kucing</label>
+            <input type="text" name="nama-kucing" placeholder="Masukkan Nama Kucing" />
+        </div>
+
+        <div>
+            <label for="nama-owner">nama owner</label>
+            <input type="text" name="nama owner" placeholder="Masukkan Nama Owner" />
+        </div>
+
+        <div>
+            <label for="NO Handphone">No. Handphone</label>
+            <input type="number" name="No Handphone" placeholder="Masukkan Nomor Hp" />
+        </div>
+
+        <div>
+            <label for="jenis-kucing">jenis kucing</label>
+            <select name="jenis-kucing">
+                <option value="0">--- Pilih Jenis Kucing ---</option>
+                <option value="1">domestik</option>
+                <option value="2">persia</option>
+                <option value="3">mixdom</option>
+                <option value="4">anggora</option>
             </select>
-     </div>
-     <div>
-        <input type="submit" name="submit" value="Masukkan Nilai">
-        <input type="reset" name="reset" value="Reset">
-     </div>
+        </div>
+
+        <div>
+            <label for="keluhan">keluhan</label>
+            <textarea name="keluhan" rows="5" placeholder="Masukkan Keluhan Anda"></textarea>
+        </div>
+        <button><a href="pert1.html">Done</a></button>
+    </form>
+
 </body>
+
 </html>
